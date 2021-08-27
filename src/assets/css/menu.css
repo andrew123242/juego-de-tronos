@@ -1,0 +1,31 @@
+.img1{
+    position: relative;
+    height: 689px;
+    width: 1280px;
+} 
+.img2{
+    position: absolute;
+    height: 120px;
+    width: 350px;
+    top: 30px;
+    right: 480px;
+}
+nav
+{
+    position: fixed;
+    top: 65%;
+    right: 0;
+    left: 0;
+    width: 340px;
+    height: 400px;
+    margin: auto;
+    transform: translateY(-60%);
+}
+nav a
+{
+    width: 40%;
+    margin: 25px;
+}
+
+
+

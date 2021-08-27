@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap%27');
+
+.body-amorios{
+ background-image: url(https://fondosmil.com/fondo/32052.jpg);
+ background-size: cover;
+ height: 689px;
+}
+.ItemK{
+  display: inline-block;
+  padding: 0.8px;
+  margin: 25px;
+  width: 190px;
+  vertical-align: top;
+  color: white;
+}
+.ItemK.image img{
+    height: 330px;
+}
+
+.ItemK .title{
+    font-weight: 100%;
+    font-size: 18px;
+    height: 60px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.ItemK .actions{
+    width: 100%;
+    border-top: solid 1px #bbb;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.btn-bootstrap:hover, .btn-bootstrap:focus {
+  background-color: #7f8183;
+}
+.entrada{
+  position: absolute;
+  top:500px;
+  font-weight: 100px;
+  right:120px;
+  margin-top: 10px; 
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: background-color .15s ease-in-out;
+}
+.mensaje{
+  position: absolute;
+  top:540px;
+  width: 300px;
+  right:25px;
+  margin-top: 10px; 
+  color: rgb(247, 241, 241);
+  transition: background-color .15s ease-in-out;
+  font-size: 1rem;
+}
+.send{
+  position: absolute;
+  top:500px;
+  font-weight: 100px;
+  right:30px;
+  letter-spacing: 1px;
+  margin-top: 10px; 
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: background-color .15s ease-in-out;
+}
